@@ -1,0 +1,72 @@
+# Byte-compiled / intermediate files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+dev/
+
+# Environment variables & secrets
+.env
+*.env
+config.json
+secrets.json
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/
+data/*.csv
+data/*.json
+
+# Cache files
+.cache/
+*.db
+*.sqlite
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Testing & Coverage reports
+.coverage
+htmlcov/
+pytest_cache/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Docker
+*.tar
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled files
+*.so
+*.o
+*.a
+*.out
+
+# FastAPI and Uvicorn related
+instance/
+*.pid
+*.sock
+
+# Node.js dependencies
+node_modules/
+
+# Terraform and AWS-related
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Git related
+.DS_Store
+.git/
